@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sembunyi dan tampil 2</title>
+	<script src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".sembunyi1").click(function(){
+				$("#foto1").hide("slow")
+			});
+			$(".tampil1").click(function(){
+				$("#foto1").show("slow")
+			});
+		});
+		$(document).ready(function(){
+			$(".sembunyi2").click(function(){
+				$("#foto2").hide("slow")
+			});
+			$(".tampil2").click(function(){
+				$("#foto2").show("slow")
+			});
+		});
+		$(document).ready(function(){
+			$(".sembunyi3").click(function(){
+				$("#foto3").hide("slow")
+			});
+			$(".tampil3").click(function(){
+				$("#foto3").show("slow")
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<button class="sembunyi1"> sembunyikan</button>
+	<button class="tampil1"> tampilkan</button><br>
+	<button class="sembunyi2"> sembunyikan</button>
+	<button class="tampil2"> tampilkan</button><br>
+	<button class="sembunyi3"> sembunyikan</button>
+	<button class="tampil3"> tampilkan</button>
+	<p>
+		<img id="foto1" src="logoupnbaru.png" alt="logoupn" width="300px" height="300px"> 
+		<img id="foto2" src="Bird Logo.png" alt="logobird" width="400px" height="300px">
+		<img id="foto3" src="logo_eis.png" alt="logoanu" width="300px" height="300px"> </p>
+</body>
+</html>

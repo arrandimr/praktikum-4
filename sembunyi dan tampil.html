@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sembunyi dan tampil 1</title>
+	<script src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".sembunyi").click(function(){
+				$("#foto").hide("slow")
+			});
+			$(".tampil").click(function(){
+				$("#foto").show("slow")
+			});
+		});
+	</script>
+	<style type="text/css">
+		#foto {
+			height: 500px;
+			width: 500px;
+		}
+	</style>
+</head>
+
+<body>
+	<button class="sembunyi"> sembunyikan</button>
+	<button class="tampil"> tampilkan</button>
+	<p><img id="foto" class="foto" src="logoupnbaru.png" alt="logoupn" > </p>
+</body>
+</html>
